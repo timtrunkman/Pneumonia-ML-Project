@@ -1,4 +1,4 @@
 # Pneumonia-ML-Project
  machine learning classification
 
-try fixing
+improve the model
