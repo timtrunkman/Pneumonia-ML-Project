@@ -1,4 +1,4 @@
 # Pneumonia-ML-Project
  machine learning classification
 
-improve the model
+improve the model/explain better
