@@ -40,7 +40,7 @@ def design_model(training_data):
     model.add(layers.Flatten())
     model.add(layers.Dense(3, activation= 'softmax'))
     print('\nCompiling model...')
-    model.compile(optimizer= tf.keras.optimizers.Adam(learning_rate= 0.001), loss= tf.keras.losses.CategoricalCrossentropy(), metrics= [tf.keras.metrics.CategoricalAccuracy(), tf.keras.metrics.AUC()])
+    model.compile(optimizer= tf.keras.optimizers.Adam(learning_rate= 0.01), loss= tf.keras.losses.CategoricalCrossentropy(), metrics= [tf.keras.metrics.CategoricalAccuracy(), tf.keras.metrics.AUC()])
     model.summary()
     return model
 
