@@ -29,5 +29,7 @@ jobs:
     with:
       script: |-
         cd /inputs/xray/classification-challenge/classification-challenge-starter
+        pip install sklearn
+        pip install matplotlib
         python classification-challenge.py 
       image: tensorflow/tensorflow:1.14.0-gpu-py3
