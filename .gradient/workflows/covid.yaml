@@ -28,7 +28,6 @@ jobs:
     uses: script@v1
     with:
       script: |-
-        cd /inputs/xray
-        ls
-        # python classification-challenge.py 
+        cd /inputs/xray/classification-challenge/classification-challenge-starter
+        python classification-challenge.py 
       image: tensorflow/tensorflow:1.14.0-gpu-py3
